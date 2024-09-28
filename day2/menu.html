@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .menu-category {
+            margin-bottom: 30px;
+        }
+        .menu-category h2 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0;
+        }
+        .menu-item {
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h3 {
+            margin: 0;
+            color: #333;
+        }
+        .menu-item p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .price {
+            float: right;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BANNI TINNI</h1>
+
+        <div class="menu-category">
+            <h2>starters</h2>
+            <div class="menu-item">
+                <h3>gobi manchuri<span class="price">₹100</span></h3>
+            </div>
+            <div class="menu-item">
+                <h3>Paneer tikka<span class="price">₹220</span></h3>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <h3>Biriyani <span class="price">₹250</span></h3>
+            </div>
+            <div class="menu-item">
+                <h3>Veg Biriyani<span class="price">₹70</span></h3>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <h3>chocolate pastry <span class="price">₹130</span></h3>
+            </div>
+            <div class="menu-item">
+                <h3>DBC <span class="price">₹250</span></h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
